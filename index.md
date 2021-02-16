@@ -32,8 +32,9 @@ It is aimed to different user profiles:
 
 - **db**: PostgreSQL 13
 - **nginx**: Nginx 1.18.0
+- **rabbitmq**: RabbitMQ 3.8.11
+- **worker**: Celery 5.0.5
 - **web**: Mobile Audit App
-
 
 ### Main features
 
@@ -47,10 +48,10 @@ It is aimed to different user profiles:
 - [x] User authentication and user management
 - [x] API v1 with Swagger and ReDoc
 - [x] TLS
+- [ ] Dynamic page reload
 - [ ] Export to Markdown
 - [ ] Export to CSV
 - [ ] LDAP integration
-- [ ] Dynamic page reload
 
 ### Integrations
 
