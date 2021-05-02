@@ -8,9 +8,12 @@ type: tool
 pitch: DevSecOps Tool to perform SAST and Malware analysis in Android APKs
 
 ---
-![Mobile Audit](/assets/images/mobile_audit.png)
+![Mobile Audit](assets/images/mobile_audit.png)
 
 ## Mobile Audit - Static Analysis and detecting malware in Android APKs
+
+
+![App](assets/images/app.png)
 
 ### Who is Mobile Audit for?
 
@@ -26,13 +29,32 @@ It is aimed to different user profiles:
 - System Administrators
 - Security Engineers
 
+In each of the scans, it would have the following information:
+
+* Application Info
+* Security Info
+* Components
+* SAST Findings
+* Best Practices Implemented
+* Virus Total Info
+* Certificate Info
+* Strings
+* Databases
+* Files
+
+![App](assets/images/scan.png)
+
+For easy access there is a sidebar on the left page of the scan:
+
+![Menu](assets/images/menu.png)
+
 ### Components
 
-![Schema](assets/images/schema.png)
+![Schema](assets/images/architecture.png)
 
-- **db**: PostgreSQL 13
-- **nginx**: Nginx 1.18.0
-- **rabbitmq**: RabbitMQ 3.8.11
+- **db**: PostgreSQL 13.2
+- **nginx**: Nginx 1.19.10
+- **rabbitmq**: RabbitMQ 3.8.14
 - **worker**: Celery 5.0.5
 - **web**: Mobile Audit App
 
@@ -48,7 +70,7 @@ It is aimed to different user profiles:
 - [x] User authentication and user management
 - [x] API v1 with Swagger and ReDoc
 - [x] TLS
-- [ ] Dynamic page reload
+- [x] Dynamic page reload (WIP)
 - [ ] Export to Markdown
 - [ ] Export to CSV
 - [ ] LDAP integration
@@ -63,23 +85,10 @@ It checks if there has been an scan of the APK and extract all its information. 
 
 It is possible to upload the findings to the defect manager.
 
-#### MalwareDB
+#### MalwareDB & Maltrail
 
 It checks in the database if there are URLs in the APK that are related with Malware.
 
-
-In each of the scans, it would have the following information:
-
-* Application Info
-* Security Info
-* Components
-* SAST Findings
-* Best Practices Implemented
-* Virus Total Info
-* Certificate Info
-* Strings
-* Databases
-* Files
 
 ## Contribution
 
