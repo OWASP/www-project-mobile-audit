@@ -52,11 +52,11 @@ For easy access there is a sidebar on the left page of the scan:
 
 ![Schema](assets/images/architecture.png)
 
-- **db**: PostgreSQL 13.2
-- **nginx**: Nginx 1.19.10
-- **rabbitmq**: RabbitMQ 3.8.14
-- **worker**: Celery 5.0.5
-- **web**: Mobile Audit App
+- **db**: PostgreSQL 3.11.5
+- **nginx**: Nginx 1.23.3
+- **rabbitmq**: RabbitMQ 3.11.5
+- **worker**: Celery 5.2.2
+- **web**: Mobile Audit App [3.0.0](https://github.com/mpast/mobileAudit)
 
 ### Main features
 
