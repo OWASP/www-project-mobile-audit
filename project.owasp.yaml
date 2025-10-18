@@ -1,0 +1,25 @@
+audience:
+  - builder
+  - defender
+leaders:
+  - name: Monica Pastor
+    email: pastorabanades@gmail.com
+    github: mpast
+level: 2
+license:
+  - GPL-3.0
+name: OWASP Mobile Audit
+pitch: DevSecOps Tool to perform SAST and Malware analysis in Android APKs
+repositories:
+  - name: www-project-mobile-audit
+    url: https://github.com/OWASP/www-project-mobile-audit
+    description: Django application that performs SAST and Malware Analysis for Android Mobile APKs
+  - name: mobileAudit
+    url: https://github.com/mpast/mobileAudit
+    description: Django application that performs SAST and Malware Analysis for Android APKs
+tags:
+  - mobile-audit
+  - custom-tag-1
+  - custom-tag-2
+type: tool
+website: https://owasp.org/www-project-mobile-audit
